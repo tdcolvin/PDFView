@@ -16,6 +16,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.graphics.asImageBitmap
+import androidx.compose.ui.layout.ContentScale
 import kotlinx.coroutines.CancellationException
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.sync.Mutex
@@ -63,6 +64,7 @@ fun PDFPage(
         Image(
             modifier = Modifier.fillMaxWidth(),
             bitmap = currentPageImage,
+            contentScale = ContentScale.FillWidth,
             contentDescription = "Page $pageNum"
         )
     }

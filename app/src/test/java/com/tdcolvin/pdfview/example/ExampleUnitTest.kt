@@ -1,4 +1,4 @@
-package com.tdcolvin.pdfviewer
+package com.tdcolvin.pdfview.example
 
 import org.junit.Test
 

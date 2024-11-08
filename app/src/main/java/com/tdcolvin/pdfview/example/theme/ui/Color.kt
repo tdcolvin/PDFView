@@ -1,4 +1,4 @@
-package com.tdcolvin.pdfviewer.ui.theme
+package com.tdcolvin.pdfview.example.theme.ui
 
 import androidx.compose.ui.graphics.Color
 

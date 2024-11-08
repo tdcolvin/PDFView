@@ -1,5 +1,3 @@
-import com.android.build.api.dsl.AaptOptions
-
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -7,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.tdcolvin.pdfviewer"
+    namespace = "com.tdcolvin.pdfview.example"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.tdcolvin.pdfviewer"
+        applicationId = "com.tdcolvin.pdfview.example"
         minSdk = 23
         targetSdk = 34
         versionCode = 1
